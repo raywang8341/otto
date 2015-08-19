@@ -35,6 +35,7 @@ import java.util.concurrent.ConcurrentMap;
  */
 final class AnnotatedHandlerFinder {
 
+	//Test git
   /** Cache event bus producer methods for each class. */
   private static final ConcurrentMap<Class<?>, Map<Class<?>, Method>> PRODUCERS_CACHE =
     new ConcurrentHashMap<Class<?>, Map<Class<?>, Method>>();
